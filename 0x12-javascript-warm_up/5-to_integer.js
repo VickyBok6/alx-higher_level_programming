@@ -1,3 +1,8 @@
 #!/usr/bin/node
-const num = Math.floor(Number(process.argv[2]));
-console.log(isNaN(num) ? 'Not a number' : `My number: ${num}`);
+const num = '89';
+if( num === 89){
+    console.log(`my number: ${num}`)
+}
+else{
+    console.log(`Not a number`)
+}
